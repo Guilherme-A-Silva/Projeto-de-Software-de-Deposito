@@ -41,7 +41,7 @@ Versao: v0.0.1
 1. Deletar Produtos
 
 
-## Listar Clientes ## 
+## Listar Produtos ## 
 
 Método: **GET**
 http://localhost:8080/produtos
