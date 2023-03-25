@@ -15,7 +15,7 @@ Entidades do Sistema
 Diagrama de classes
 ---
 
- Em processo....
+ ![image](https://user-images.githubusercontent.com/68473916/227722050-d5e0b7ac-0e55-4f02-aac7-c81e94045dd6.png)
 
 
 API de Deposito
