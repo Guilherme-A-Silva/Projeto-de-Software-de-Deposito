@@ -31,36 +31,36 @@ Versao: v0.0.1
 
 ## Métodos GET ##
 
-1. Listar Produtos
-2. Buscar Produtos por Id
-3. Buscar Produtos por Nome
-4. Listar Encomendas
-5. Buscar Encomendas por Id
-6. Buscar Encomendas por Nome
+1. Listar Produtos localhost:8080/produtos
+2. Buscar Produtos por Id localhost:8080/produtos/id/{id}
+3. Buscar Produtos por Nome localhost:8080/produtos/nome/{nome}
+4. Listar Encomendas localhost:8080/encomendas
+5. Buscar Encomendas por Id localhost:8080/encomendas/id/{id}
+6. Buscar Encomendas por Nome localhost:8080/encomendas/nome/{nome}
 
 ## Métodos POST ##
 
-1. Cadastrar Produtos
-2. Cadastrar Encomendas
+1. Cadastrar Produtos localhost:8080/produtos
+2. Cadastrar Encomendas localhost:8080/encomendas
 
 ## Método PUT ##
 
-1. Atualizar Produtos por Completo ( INDIVIDUALMENTE POR ID)
-2. Atualizar Quantidade de Produto ( INDIVIDUALMENTE POR ID)
-3. Atualizar Nome de Produto ( INDIVIDUALMENTE POR ID)
-4. Atualizar Descricao de Produto ( INDIVIDUALMENTE POR ID)
-5. Atualizar Preco de Produto ( INDIVIDUALMENTE POR ID)
-6. Atualizar Encomenda por Completo ( INDIVIDUALMENTE POR ID)
-7. Atualizar Status para Cancelado ( INDIVIDUALMENTE POR ID)
-8. Atualizar Status para Finalizado ( INDIVIDUALMENTE POR ID)
-9. Atualizar Quantidade de Encomenda ( INDIVIDUALMENTE POR ID)
-10. Atualizar Nome da Encomenda ( INDIVIDUALMENTE POR ID)
-11. Atualizar Descricao da Encomenda ( INDIVIDUALMENTE POR ID)
+1. Atualizar Produtos por Completo ( INDIVIDUALMENTE POR ID) localhost:8080/produtos/{id}
+2. Atualizar Quantidade de Produto ( INDIVIDUALMENTE POR ID) localhost:8080/produtos/qt/{id}/{Quantidade}
+3. Atualizar Nome de Produto ( INDIVIDUALMENTE POR ID) localhost:8080/produtos/no/{id}/{nome}
+4. Atualizar Descricao de Produto ( INDIVIDUALMENTE POR ID) localhost:8080/produtos/des/{id}/{descricao}
+5. Atualizar Preco de Produto ( INDIVIDUALMENTE POR ID) localhost:8080/produtos/pre/{id}/{preco}
+6. Atualizar Encomenda por Completo ( INDIVIDUALMENTE POR ID) localhost:8080/encomendas/{id}
+7. Atualizar Status para Cancelado ( INDIVIDUALMENTE POR ID) localhost:8080/encomendas/{id}/Cancelar
+8. Atualizar Status para Finalizado ( INDIVIDUALMENTE POR ID) localhost:8080/encomendas/{id}/Finalizado
+9. Atualizar Quantidade de Encomenda ( INDIVIDUALMENTE POR ID) localhost:8080/encomendas/qt/{id}/{Quantidade}
+10. Atualizar Nome da Encomenda ( INDIVIDUALMENTE POR ID) localhost:8080/encomendas/no/{id}/{Nome}
+11. Atualizar Descricao da Encomenda ( INDIVIDUALMENTE POR ID) localhost:8080/encomendas/des/{id}/{descricao}
 
 ## Método DELETE ##
 
-1. Deletar Produto
-2. Deletar Encomenda
+1. Deletar Produto localhost:8080/produtos/{id}
+2. Deletar Encomenda localhost:8080/encomendas/{id}
 
 
 ## Listar Produtos ## 
@@ -154,8 +154,8 @@ Exemplo de resposta do Servidor
 ]
 ```
  
-Método: **DELETE**
-localhost:8080/produtos/{id}
+Método: **Post**
+localhost:8080/produtos
 
 ### Parâmetros ###
 Parâmetro| tipo
@@ -164,11 +164,21 @@ id   | numeral
 
 ### Responses ### 
 
-**Status: 204 **
+**Status: 201 **
 
 Exemplo de resposta do Servidor
 
 ```json
-[]
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"preco": 2.2,
+		"quantidade": 5
+	}
+]
 ```
+
+
 
