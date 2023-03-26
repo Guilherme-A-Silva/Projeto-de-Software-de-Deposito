@@ -15,8 +15,7 @@ Entidades do Sistema
 Diagrama de classes
 ---
 
- ![image](https://user-images.githubusercontent.com/68473916/227722050-d5e0b7ac-0e55-4f02-aac7-c81e94045dd6.png)
-
+![Classe UML (1)](https://user-images.githubusercontent.com/68473916/227798929-4fc7a992-1a33-44ee-8d52-0221d889925c.png)
 
 
 Diagrama de Metodos
