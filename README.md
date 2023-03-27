@@ -103,7 +103,6 @@ Exemplo de resposta do Servidor
 ## Buscar Produto por Codigo ##
 
 Método: **GET**
-
 http://localhost:8080/produtos/id/{Codigo}
 
 
@@ -591,9 +590,46 @@ Exemplo de resposta do Servidor
 	}
 ]
 ```
+## Deletar Produto ##
 
+Método: **DELETE**
+http://localhost:8080/produtos/{id}
 
+### Parâmetros ###
+Parâmetro| tipo
+---------|-------
+codigo   | numeral
 
+### Responses ### 
 
+**Status: 200 - Um array de Produtos**
 
+Exemplo de resposta do Servidor
+
+```json
+[
+
+]
+```
+## Deletar Encomenda ##
+
+Método: **DELETE**
+http://localhost:8080/encomendas/{id}
+
+### Parâmetros ###
+Parâmetro| tipo
+---------|-------
+codigo   | numeral
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+
+]
+```
 
