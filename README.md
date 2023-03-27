@@ -263,8 +263,61 @@ Exemplo de resposta do Servidor
 
 ]
 ```
+## Atualizar Produtos por Completo ##
+
+Método: **PUT**
+localhost:8080/produtos/{id}
+
+### Parâmetros ###
+Parâmetro| tipo
+---------|-------
+codigo   | numeral
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"preco": 2.2,
+		"quantidade": 5
+	}
+]
+```
+## Atualizar Quantidade de Produto ##
+
+Método: **PUT**
+localhost:8080/produtos/qt/{id}/{Quantidade}
+
+### Parâmetros ###
+Parâmetro| tipo           Parâmetro| tipo
+---------|-------         ---------|-------
+codigo   | numeral        codigo   | numeral
 
 
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"preco": 2.2,
+		"quantidade": 5
+	}
+]
+```
 
 
 
