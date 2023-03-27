@@ -112,7 +112,7 @@ Parâmetro| tipo
 codigo   | numeral
 
 ### Responses ### 
-**Status: 200 - Um objeto Produto**
+**Status: 200 - Ok**
 
 
 Exemplo de Resposta do servidor
@@ -138,7 +138,7 @@ nome   | string
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -160,7 +160,7 @@ http://localhost:8080/encomendas
 
 ### Responses ### 
 
-**Status: 201 **
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -187,7 +187,7 @@ Parâmetro| tipo
 codigo   | numeral
 
 ### Responses ### 
-**Status: 200 - Um objeto Produto**
+**Status: 200 - Ok**
 
 
 Exemplo de Resposta do servidor
@@ -213,7 +213,7 @@ nome   | string
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -235,7 +235,7 @@ http://localhost:8080/produtos
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 201 - Criado**
 
 Exemplo de resposta do Servidor
 
@@ -252,7 +252,7 @@ http://localhost:8080/encomendas
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 201 - Criado**
 
 Exemplo de resposta do Servidor
 
@@ -273,7 +273,7 @@ codigo   | numeral
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -305,7 +305,7 @@ quantidade   | numeral
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -337,7 +337,7 @@ nome   | string
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -369,7 +369,7 @@ descrição | string
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -401,7 +401,7 @@ preço | double
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -428,7 +428,7 @@ codigo   | numeral
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -482,7 +482,7 @@ codigo   | numeral
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -544,7 +544,7 @@ nome   | numeral
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -575,7 +575,7 @@ descrição  | string
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -602,7 +602,7 @@ codigo   | numeral
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 204 - Sem Conteúdo**
 
 Exemplo de resposta do Servidor
 
@@ -623,7 +623,7 @@ codigo   | numeral
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 204 - Sem Conteúdo**
 
 Exemplo de resposta do Servidor
 
