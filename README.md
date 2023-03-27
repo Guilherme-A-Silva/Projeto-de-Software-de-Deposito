@@ -154,14 +154,10 @@ Exemplo de resposta do Servidor
 	}
 ]
 ```
+## Listar Encomendas ##
 
 Método: **Post**
-localhost:8080/produtos
-
-### Parâmetros ###
-Parâmetro| tipo
----------|-------
-id   | numeral
+localhost:8080/encomendas
 
 ### Responses ### 
 
@@ -180,6 +176,102 @@ Exemplo de resposta do Servidor
 	}
 ]
 ```
+## Buscar Encomendas por Código ##
+
+Método: **GET**
+
+http://localhost:8080/encomendas/id/{id}
+
+
+### Parâmetros ###
+Parâmetro| tipo
+---------|-------
+codigo   | numeral
+
+### Responses ### 
+**Status: 200 - Um objeto Produto**
+
+
+Exemplo de Resposta do servidor
+
+```json
+{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"preco": 2.2,
+		"quantidade": 5
+}
+```
+## Buscar Encomendas por Nome ##
+
+Método: **GET**
+localhost:8080/encomendas/nome/{nome}
+
+### Parâmetros ###
+Parâmetro| tipo
+---------|-------
+nome   | string
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"preco": 2.2,
+		"quantidade": 5
+	}
+]
+```
+## Cadastrar Produtos ##
+
+Método: **POST**
+localhost:8080/produtos
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+
+]
+```
+
+## Cadastrar Encomendas ##
+
+Método: **POST**
+localhost:8080/encomendas
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+
+]
+```
+
+
+
+
+
+
+
+
+
 
 
 
