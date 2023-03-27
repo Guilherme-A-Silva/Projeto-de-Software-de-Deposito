@@ -171,8 +171,8 @@ Exemplo de resposta do Servidor
 		"codigo": 1,
 		"nome": "Banana",
 		"descricao": "Banana Prata",
-		"preco": 2.2,
 		"quantidade": 5
+		"status": PENDENTE
 	}
 ]
 ```
@@ -199,8 +199,8 @@ Exemplo de Resposta do servidor
 		"codigo": 1,
 		"nome": "Banana",
 		"descricao": "Banana Prata",
-		"preco": 2.2,
 		"quantidade": 5
+		"status": PENDENTE
 }
 ```
 ## Buscar Encomendas por Nome ##
@@ -225,8 +225,8 @@ Exemplo de resposta do Servidor
 		"codigo": 1,
 		"nome": "Banana",
 		"descricao": "Banana Prata",
-		"preco": 2.2,
 		"quantidade": 5
+		"status": PENDENTE
 	}
 ]
 ```
@@ -302,7 +302,7 @@ codigo   | numeral
 
 Parâmetro| tipo
 ---------|-------
-codigo   | numeral
+quantidade   | numeral
 
 
 ### Responses ### 
@@ -322,7 +322,156 @@ Exemplo de resposta do Servidor
 	}
 ]
 ```
+## Atualizar Nome de Produto ##
 
+Método: **PUT**
+localhost:8080/produtos/no/{id}/{nome}
+
+### Parâmetros ###
+Parâmetro| tipo           
+---------|-------         
+codigo   | numeral        
+
+Parâmetro| tipo
+---------|-------
+nome   | string
+
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"preco": 2.2,
+		"quantidade": 5
+	}
+]
+```
+## Atualizar Descrição de Produto ##
+
+Método: **PUT**
+localhost:8080/produtos/des/{id}/{descricao}
+
+### Parâmetros ###
+Parâmetro| tipo           
+---------|-------         
+codigo   | numeral        
+
+Parâmetro| tipo
+----------|-------
+descrição | string
+
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"preco": 2.2,
+		"quantidade": 5
+	}
+]
+```
+## Atualizar Preço de Produto ##
+
+Método: **PUT**
+localhost:8080/produtos/pre/{id}/{preco}
+
+### Parâmetros ###
+Parâmetro| tipo           
+---------|-------         
+codigo   | numeral        
+
+Parâmetro| tipo
+------|-------
+preço | double
+
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"preco": 2.2,
+		"quantidade": 5
+	}
+]
+```
+## Atualizar Encomendas por Completo ##
+
+Método: **PUT**
+localhost:8080/encomendas/{id}
+
+### Parâmetros ###
+Parâmetro| tipo
+---------|-------
+codigo   | numeral
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"quantidade": 5
+		"status": PENDENTE
+	}
+]
+```
+## Atualizar Encomendas por Completo ##
+
+Método: **PUT**
+localhost:8080/encomendas/{id}/Cancelar
+
+### Parâmetros ###
+Parâmetro| tipo
+---------|-------
+codigo   | numeral
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"quantidade": 5
+		"status": CANCELADO
+	}
+]
+```
 
 
 
