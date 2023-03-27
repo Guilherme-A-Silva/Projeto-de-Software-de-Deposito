@@ -296,9 +296,13 @@ Método: **PUT**
 localhost:8080/produtos/qt/{id}/{Quantidade}
 
 ### Parâmetros ###
-Parâmetro| tipo           Parâmetro| tipo
----------|-------         ---------|-------
-codigo   | numeral        codigo   | numeral
+Parâmetro| tipo           
+---------|-------         
+codigo   | numeral        
+```
+Parâmetro| tipo
+---------|-------
+codigo   | numeral
 
 
 ### Responses ### 
