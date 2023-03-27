@@ -472,6 +472,33 @@ Exemplo de resposta do Servidor
 	}
 ]
 ```
+## Atualizar Status Para Finalizado ##
+
+Método: **PUT**
+localhost:8080/encomendas/{id}/Finalizado
+
+### Parâmetros ###
+Parâmetro| tipo
+---------|-------
+codigo   | numeral
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"quantidade": 5
+		"status": FINALIZADO
+	}
+]
+```
 
 
 
