@@ -130,7 +130,7 @@ Exemplo de Resposta do servidor
 ## Buscar Produto por Nome ##
 
 Método: **GET**
-localhost:8080/produtos/nome/{nome}
+http://localhost:8080/produtos/nome/{nome}
 
 ### Parâmetros ###
 Parâmetro| tipo
@@ -157,7 +157,7 @@ Exemplo de resposta do Servidor
 ## Listar Encomendas ##
 
 Método: **Post**
-localhost:8080/encomendas
+http://localhost:8080/encomendas
 
 ### Responses ### 
 
@@ -179,7 +179,6 @@ Exemplo de resposta do Servidor
 ## Buscar Encomendas por Código ##
 
 Método: **GET**
-
 http://localhost:8080/encomendas/id/{id}
 
 
@@ -206,7 +205,7 @@ Exemplo de Resposta do servidor
 ## Buscar Encomendas por Nome ##
 
 Método: **GET**
-localhost:8080/encomendas/nome/{nome}
+http://localhost:8080/encomendas/nome/{nome}
 
 ### Parâmetros ###
 Parâmetro| tipo
@@ -233,7 +232,7 @@ Exemplo de resposta do Servidor
 ## Cadastrar Produtos ##
 
 Método: **POST**
-localhost:8080/produtos
+http://localhost:8080/produtos
 
 ### Responses ### 
 
@@ -250,7 +249,7 @@ Exemplo de resposta do Servidor
 ## Cadastrar Encomendas ##
 
 Método: **POST**
-localhost:8080/encomendas
+http://localhost:8080/encomendas
 
 ### Responses ### 
 
@@ -266,7 +265,7 @@ Exemplo de resposta do Servidor
 ## Atualizar Produtos por Completo ##
 
 Método: **PUT**
-localhost:8080/produtos/{id}
+http://localhost:8080/produtos/{id}
 
 ### Parâmetros ###
 Parâmetro| tipo
@@ -293,7 +292,7 @@ Exemplo de resposta do Servidor
 ## Atualizar Quantidade de Produto ##
 
 Método: **PUT**
-localhost:8080/produtos/qt/{id}/{Quantidade}
+http://localhost:8080/produtos/qt/{id}/{Quantidade}
 
 ### Parâmetros ###
 Parâmetro| tipo           
@@ -325,7 +324,7 @@ Exemplo de resposta do Servidor
 ## Atualizar Nome de Produto ##
 
 Método: **PUT**
-localhost:8080/produtos/no/{id}/{nome}
+http://localhost:8080/produtos/no/{id}/{nome}
 
 ### Parâmetros ###
 Parâmetro| tipo           
@@ -357,7 +356,7 @@ Exemplo de resposta do Servidor
 ## Atualizar Descrição de Produto ##
 
 Método: **PUT**
-localhost:8080/produtos/des/{id}/{descricao}
+http://localhost:8080/produtos/des/{id}/{descricao}
 
 ### Parâmetros ###
 Parâmetro| tipo           
@@ -389,7 +388,7 @@ Exemplo de resposta do Servidor
 ## Atualizar Preço de Produto ##
 
 Método: **PUT**
-localhost:8080/produtos/pre/{id}/{preco}
+http://localhost:8080/produtos/pre/{id}/{preco}
 
 ### Parâmetros ###
 Parâmetro| tipo           
@@ -421,7 +420,7 @@ Exemplo de resposta do Servidor
 ## Atualizar Encomendas por Completo ##
 
 Método: **PUT**
-localhost:8080/encomendas/{id}
+http://localhost:8080/encomendas/{id}
 
 ### Parâmetros ###
 Parâmetro| tipo
@@ -448,7 +447,7 @@ Exemplo de resposta do Servidor
 ## Atualizar Status Para Cancelado ##
 
 Método: **PUT**
-localhost:8080/encomendas/{id}/Cancelar
+http://localhost:8080/encomendas/{id}/Cancelar
 
 ### Parâmetros ###
 Parâmetro| tipo
@@ -475,7 +474,7 @@ Exemplo de resposta do Servidor
 ## Atualizar Status Para Finalizado ##
 
 Método: **PUT**
-localhost:8080/encomendas/{id}/Finalizado
+http://localhost:8080/encomendas/{id}/Finalizado
 
 ### Parâmetros ###
 Parâmetro| tipo
@@ -502,7 +501,7 @@ Exemplo de resposta do Servidor
 ## Atualizar Quantidade de Encomenda ##
 
 Método: **PUT**
-localhost:8080/encomendas/qt/{id}/{Quantidade}
+http://localhost:8080/encomendas/qt/{id}/{Quantidade}
 
 ### Parâmetros ###
 Parâmetro| tipo
@@ -533,7 +532,7 @@ Exemplo de resposta do Servidor
 ## Atualizar Nome de Encomenda ##
 
 Método: **PUT**
-localhost:8080/encomendas/no/{id}/{Nome}
+http://localhost:8080/encomendas/no/{id}/{Nome}
 
 ### Parâmetros ###
 Parâmetro| tipo
@@ -564,7 +563,7 @@ Exemplo de resposta do Servidor
 ## Atualizar Descrição de Encomenda ##
 
 Método: **PUT**
-localhost:8080/encomendas/des/{id}/{descricao}
+http://localhost:8080/encomendas/des/{id}/{descricao}
 
 ### Parâmetros ###
 Parâmetro| tipo
