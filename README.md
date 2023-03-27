@@ -499,9 +499,99 @@ Exemplo de resposta do Servidor
 	}
 ]
 ```
+## Atualizar Quantidade de Encomenda ##
 
+Método: **PUT**
+localhost:8080/encomendas/qt/{id}/{Quantidade}
 
+### Parâmetros ###
+Parâmetro| tipo
+---------|-------
+codigo   | numeral
 
+Parâmetro| tipo
+------------|-------
+quantidade  | numeral
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"quantidade": 5
+		"status": PENDENTE
+	}
+]
+```
+## Atualizar Nome de Encomenda ##
+
+Método: **PUT**
+localhost:8080/encomendas/no/{id}/{Nome}
+
+### Parâmetros ###
+Parâmetro| tipo
+---------|-------
+codigo   | numeral
+
+Parâmetro| tipo
+-------|-------
+nome   | numeral
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"quantidade": 5
+		"status": PENDENTE
+	}
+]
+```
+## Atualizar Descrição de Encomenda ##
+
+Método: **PUT**
+localhost:8080/encomendas/des/{id}/{descricao}
+
+### Parâmetros ###
+Parâmetro| tipo
+---------|-------
+codigo   | numeral
+
+Parâmetro| tipo
+-----------|-------
+descrição  | string
+
+### Responses ### 
+
+**Status: 200 - Um array de Produtos**
+
+Exemplo de resposta do Servidor
+
+```json
+[
+	{
+		"codigo": 1,
+		"nome": "Banana",
+		"descricao": "Banana Prata",
+		"quantidade": 5
+		"status": PENDENTE
+	}
+]
+```
 
 
 
