@@ -445,7 +445,7 @@ Exemplo de resposta do Servidor
 	}
 ]
 ```
-## Atualizar Encomendas por Completo ##
+## Atualizar Status Para Cancelado ##
 
 Método: **PUT**
 localhost:8080/encomendas/{id}/Cancelar
