@@ -455,7 +455,7 @@ codigo   | numeral
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
@@ -513,7 +513,7 @@ quantidade  | numeral
 
 ### Responses ### 
 
-**Status: 200 - Um array de Produtos**
+**Status: 200 - Ok**
 
 Exemplo de resposta do Servidor
 
