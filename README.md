@@ -299,7 +299,7 @@ localhost:8080/produtos/qt/{id}/{Quantidade}
 Parâmetro| tipo           
 ---------|-------         
 codigo   | numeral        
-```
+
 Parâmetro| tipo
 ---------|-------
 codigo   | numeral
